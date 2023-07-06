@@ -1,0 +1,122 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(242, 233, 228);
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 59, .9);
+    margin-bottom: 35px;
+}
+
+.banner{
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padreCards{
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    margin: auto 0;
+    margin: 20px;
+    max-width: 100%;
+    height: 450px;
+    width: 400px;
+
+}
+
+.cardBody{
+    object-fit: fill;
+    background-color: #e0c8c3;
+}
+
+.cardName{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #22223b;
+}
+
+.cardText{
+    text-align: center;
+    font-size: 23px;
+    color: #22223b;
+}
+
+.cardImg{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardBtn{
+    display: flex;
+    background-color: #f2e9e4;
+    padding: 8px;
+    border-radius: 8px;
+    color: #22223b;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.cardBtn:hover{
+    background-color: #fdf6f2;
+}
+
+.carrito{
+    background-color: rgb(74, 78, 105, .3);
+    border-radius: 14px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.btnEliminar{
+    background-color: #f2e9e4;
+    padding: 8px;
+    border-radius: 8px;
+    color: #22223b;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+    border-color: #e0c8c3;
+}
+
+.btnEliminar:hover{
+    background-color: #fdf6f2;
+}
